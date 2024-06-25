@@ -1,0 +1,76 @@
+  body{
+  background-color: #acc4fa;
+}
+.container{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container img{
+  width: 300px;
+  height: 130px;
+}
+.centerbox{
+  background-color: #ffc34e;
+  padding: 50px;
+  border-radius: 35px;
+  box-shadow: #000 2px 2px 15px;
+}
+
+.login{
+border-radius: 12px;
+  background-color: rgb(234, 121, 8);
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 4em auto;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.txt{
+  border-radius: 5px;
+  border: 0;
+  padding: 4px;
+  background-color: rgb(255, 255, 255);
+}
+.txt:focus{
+  outline:none;
+}
+#usuario, #contraseña{
+  color: #000;
+
+}
+.btn{
+  margin: 1em 1em;
+  border:solid 1px;
+  border-radius: 5px;
+  width: 6em;
+  height: 3em;
+  border: none;
+  background-color: rgb(254, 168, 6);
+}
+.btn:hover{
+  background-color: rgb(255, 208, 0);
+  color: #fff;
+  cursor: pointer;
+}
+.btn:active{
+  background-color: rgb(183, 122, 9);
+}
+input{
+  margin: 4px 5px;
+  width: auto;
+}
+
+.botones{
+  display: flex;
+}
+@media screen and (max-width: 600px){
+  .login{
+  width: auto;
+  }
+}

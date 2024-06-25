@@ -1,0 +1,189 @@
+* {
+    margin: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+.header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    height: 125%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img {
+    
+    object-fit: cover;
+    height: 100%;
+    padding: 5px;
+}
+
+.nav {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: c height: fit-content;enter;
+
+}
+
+.nav a {
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 9px;
+    font-size: 20px;
+    margin: 0.5em;
+    width: 6em;
+    text-align: center;
+    border: 1px;
+    border-radius: 12px;
+    background-color: rgb(228, 131, 52);
+}
+
+.nav a:hover {
+    background-color: rgb(255, 170, 0);
+    transition: 0.3s;
+}
+
+/*section-1*/
+.section-1 {
+    background-image: url(../img/banner1.jpg);
+    background-size: 34em;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2a8aad;
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-size: 2em;
+    font-style: normal;
+}
+
+.section-1 h1 {
+    font-size: 3em;
+    margin-bottom: 3px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+
+/*section-2*/
+.section-2 {
+    background-image: url(../img/banner1_1.jpg);
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 h2 {
+    font-weight: 900;
+    font-size: 2em;
+    color: black;
+}
+
+/*about*/
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: auto;
+    max-width: 50%;
+    text-align: justify;
+
+}
+.about h2{
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-size: 4em;
+    font-style: normal;
+    margin-bottom: 1px;
+}
+
+.about p {
+    padding: 2em;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-pie {
+    justify-content: flex-start;
+}
+
+.logo-pie img {
+    height: 150px;
+    width: 150px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+
+.footer a {
+    text-decoration: none;
+    margin: 1em;
+}
+
+@media screen and (max-width: 600px){
+    .section-1{
+        text-align: center;
+    }
+    .section-1{
+        background-size: 140%;
+    }
+    .section-2{
+        background-size: 90%;
+    }
+    
+    .about{
+        max-width: fit-content;
+    }
+    .header{
+        flex-direction: column;
+        
+
+    }
+    .logo{
+        height: fit-content;
+        flex-direction: column;
+    }
+    .nav{
+        justify-items: center;
+        align-items: center;
+    }
+    .nav a{
+        border: solid 1px #885a05;
+        
+    }
+    *{
+        padding-top: 10px;
+    }
+
+  }
